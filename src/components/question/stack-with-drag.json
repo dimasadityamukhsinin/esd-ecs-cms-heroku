@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_question_stack_with_drags",
+  "info": {
+    "displayName": "Stack with Drag"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "stack-with-drag"
+    },
+    "Score": {
+      "type": "float",
+      "required": true
+    },
+    "Content": {
+      "displayName": "Stack with Drag Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "question.stack-with-drag-content"
+    }
+  }
+}

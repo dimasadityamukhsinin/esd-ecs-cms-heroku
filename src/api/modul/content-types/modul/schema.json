@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moduls",
+  "info": {
+    "singularName": "modul",
+    "pluralName": "moduls",
+    "displayName": "Modul",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "Editor": {
+      "type": "dynamiczone",
+      "components": [
+        "editor.arrange",
+        "editor.content",
+        "editor.drag-and-drop",
+        "editor.fill-in-the-blank",
+        "editor.stack-with-drag-and-drop",
+        "editor.title",
+        "editor.youtube",
+        "editor.fill-in-the-blank-right-answer",
+        "dnd.stack-with-drag-and-drop",
+        "editor.audio",
+        "editor.essay"
+      ]
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Short_Description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 180
+    },
+    "Assignment_Deadline": {
+      "type": "date",
+      "required": true
+    },
+    "major": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::major.major",
+      "inversedBy": "moduls"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "modul"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_editor_completeds",
+  "info": {
+    "displayName": "Completed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Completed_Date": {
+      "displayName": "Completed_Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "editor.completed-content"
+    }
+  }
+}

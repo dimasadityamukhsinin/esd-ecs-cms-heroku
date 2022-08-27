@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_comments_comments",
+  "info": {
+    "displayName": "Comments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "IdUser": {
+      "type": "string"
+    },
+    "Username": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Comment": {
+      "type": "text"
+    }
+  }
+}

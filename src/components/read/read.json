@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_read_reads",
+  "info": {
+    "displayName": "Read"
+  },
+  "options": {},
+  "attributes": {
+    "idUser": {
+      "type": "biginteger",
+      "required": true
+    },
+    "User": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

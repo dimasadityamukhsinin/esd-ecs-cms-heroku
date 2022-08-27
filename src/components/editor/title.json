@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_editor_titles",
+  "info": {
+    "displayName": "Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "required": true
+    },
+    "Content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

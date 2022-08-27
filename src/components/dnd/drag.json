@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_dnd_drags",
+  "info": {
+    "displayName": "Drag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "To": {
+      "type": "enumeration",
+      "enum": [
+        "drop-1",
+        "drop-2",
+        "drop-3",
+        "drop-4",
+        "drop-5",
+        "drop-6",
+        "drop-7",
+        "drop-8",
+        "drop-9",
+        "drop-10",
+        "drop-11",
+        "drop-12",
+        "drop-13",
+        "drop-14",
+        "drop-15",
+        "drop-16",
+        "drop-17",
+        "drop-18",
+        "drop-19",
+        "drop-20"
+      ],
+      "required": true
+    },
+    "Number": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

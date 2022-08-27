@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_question_fill_in_the_blank_contents",
+  "info": {
+    "displayName": "Fill in the blank Content"
+  },
+  "options": {},
+  "attributes": {
+    "Key": {
+      "type": "string",
+      "required": true
+    },
+    "Answer": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

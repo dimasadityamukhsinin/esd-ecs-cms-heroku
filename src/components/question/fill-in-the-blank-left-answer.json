@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_question_fill_in_the_blank_left_answers",
+  "info": {
+    "displayName": "Fill in the blank - Left Answer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "fill-left-answer"
+    },
+    "Score": {
+      "type": "float",
+      "required": true
+    },
+    "Content": {
+      "displayName": "Fill in the blank Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "question.fill-in-the-blank-content"
+    }
+  }
+}

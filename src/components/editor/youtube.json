@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_editor_youtubes",
+  "info": {
+    "displayName": "Youtube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Youtube": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

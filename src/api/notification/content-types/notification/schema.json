@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "singularName": "notification",
+    "pluralName": "notifications",
+    "displayName": "Notification",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "All": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "users_permissions_users": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "notification"
+    },
+    "Read": {
+      "displayName": "Read",
+      "type": "component",
+      "repeatable": true,
+      "component": "read.read"
+    }
+  }
+}

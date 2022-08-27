@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_question_stack_with_drag_contents",
+  "info": {
+    "displayName": "Stack with Drag Content"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "integer",
+      "required": true
+    },
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "Answer": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

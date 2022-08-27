@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_essay_essays",
+  "info": {
+    "displayName": "Essay"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "text",
+      "required": true
+    },
+    "Answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

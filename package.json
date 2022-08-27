@@ -1,0 +1,39 @@
+{
+  "name": "esd-ecs-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.1",
+    "@strapi/plugin-i18n": "^4.3.6",
+    "@strapi/plugin-users-permissions": "^4.3.6",
+    "@strapi/provider-upload-cloudinary": "^4.3.0",
+    "@strapi/strapi": "^4.3.6",
+    "@strapi/utils": "^4.3.0",
+    "add": "^2.0.6",
+    "bcrypt": "^5.0.1",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0",
+    "strapi-plugin-populate-deep": "^0.1.2",
+    "strapi-plugin-preview-button": "^0.3.6",
+    "yarn": "^1.22.19"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "87fe4b5c-8412-4b0b-9221-2edef96b86e3"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

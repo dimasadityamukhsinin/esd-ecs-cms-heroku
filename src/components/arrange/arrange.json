@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_arrange_arranges",
+  "info": {
+    "displayName": "Arrange",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "integer",
+      "required": true
+    },
+    "Content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

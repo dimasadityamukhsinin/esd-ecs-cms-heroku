@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "completeds",
+  "info": {
+    "singularName": "completed",
+    "pluralName": "completeds",
+    "displayName": "Completed",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idUser": {
+      "type": "biginteger",
+      "required": true,
+      "unique": false
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Total_Score": {
+      "required": true,
+      "type": "float"
+    },
+    "Question": {
+      "type": "dynamiczone",
+      "components": [
+        "question.fill-in-the-blank-left-answer",
+        "question.drag-and-drop",
+        "question.arrange",
+        "question.fill-in-the-blank-right-answer",
+        "question.stack-with-drag"
+      ]
+    },
+    "User": {
+      "type": "string",
+      "required": true
+    },
+    "Modul_Name": {
+      "type": "string",
+      "required": true
+    },
+    "idModul": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

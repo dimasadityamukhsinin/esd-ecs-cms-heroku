@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_editor_audio",
+  "info": {
+    "displayName": "Audio"
+  },
+  "options": {},
+  "attributes": {
+    "Audio": {
+      "allowedTypes": [
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

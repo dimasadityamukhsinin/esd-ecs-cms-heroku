@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_question_fill_in_the_blank_right_answers",
+  "info": {
+    "displayName": "Fill in the blank - Right Answer"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "fill-right-answer"
+    },
+    "Score": {
+      "type": "float",
+      "required": true
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.fill-in-the-blank-content"
+    }
+  }
+}

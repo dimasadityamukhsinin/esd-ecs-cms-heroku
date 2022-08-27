@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_editor_verbs",
+  "info": {
+    "displayName": "Fill Left Answer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Answer": {
+      "type": "string",
+      "required": true
+    },
+    "Question": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_editor_misseds",
+  "info": {
+    "displayName": "Missed"
+  },
+  "options": {},
+  "attributes": {
+    "Missed_Content": {
+      "displayName": "Missed_Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "editor.missed-content"
+    }
+  }
+}

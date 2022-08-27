@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_question_drag_and_drop_contents",
+  "info": {
+    "displayName": "Drag and Drop Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Key": {
+      "type": "string",
+      "required": true
+    },
+    "Answer": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

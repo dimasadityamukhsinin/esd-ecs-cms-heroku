@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_question_arranges",
+  "info": {
+    "displayName": "Arrange",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "arrange"
+    },
+    "Score": {
+      "type": "float",
+      "required": true
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.fill-in-the-blank-content"
+    }
+  }
+}
